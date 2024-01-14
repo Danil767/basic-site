@@ -1,6 +1,5 @@
 $(function () {
 
-
 $('.reviews-slider').slick({
     infinite: true,
     slidesToShow: 2,
@@ -9,5 +8,8 @@ $('.reviews-slider').slick({
     dots: true
 })
 
+ $('.btn__menu').on('click', function (){
+     $('.menu__list').slideToggle()
+ })
 
 })
