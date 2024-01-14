@@ -389,8 +389,9 @@ body{
     margin: 0 -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
     margin: 0 50px;
+    padding-bottom: 70px;
 }
 
 .reviews-box {
@@ -461,4 +462,7 @@ body{
     font-weight: 700;
 }
 
-
+.brands__img {
+    margin: 95px 0;
+    align-items: center;
+}
