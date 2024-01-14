@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@700&family=Roboto:wght@700;900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/Reset.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -163,6 +164,57 @@
     </div>
 </section>
 
+<section class="reviews">
+    <div class="container">
+        <h2 class="title">
+            What <span>People</span> Say About Us
+        </h2>
+        <div class="reviews-slider">
+
+            <div class="reviews-slider__item">
+                <div class="reviews-box">
+                    <div class="reviews-box__image">
+                        <img src="./img/america.jpg" alt="Captain America">
+                    </div>
+                    <div class="reviews-box__content">
+                        <div class="reviews-box__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable.
+                        </div>
+                        <div class="reviews-box__author">
+                            <span>Captain America</span> - unemployed
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-slider__item">
+                <div class="reviews-box">
+                    <div class="reviews-box__image">
+                        <img src="./img/tony.jpg" alt="Captain America">
+                    </div>
+                    <div class="reviews-box__content">
+                        <div class="reviews-box__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable.
+                        </div>
+                        <div class="reviews-box__author">
+                            <span>Tony Stark</span> - CEO Stark Industries
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="container">
         <div class="footer__inner">
@@ -207,10 +259,18 @@
                     Quick Contact
                 </div>
                 <form>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email Address">
-                    <input type="text" placeholder="Subject">
-                    <textarea placeholder="Message"></textarea>
+                    <label>
+                        <input type="text" placeholder="Name">
+                    </label>
+                    <label>
+                        <input type="text" placeholder="Email Address">
+                    </label>
+                    <label>
+                        <input type="text" placeholder="Subject">
+                    </label>
+                    <label>
+                        <textarea placeholder="Message"></textarea>
+                    </label>
                     <button type="submit">Send</button>
                 </form>
             </div>
@@ -219,6 +279,7 @@
 </footer>
 
 <script src="js/jQ.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
